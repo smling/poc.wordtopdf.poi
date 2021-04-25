@@ -18,8 +18,8 @@ repositories {
 
 dependencies {
     // Use Apache POI to call Microsoft Office file related actions.
-    implementation 'org.apache.poi:poi:3.9+'
-
+    implementation 'org.apache.poi:poi:5+'
+    implementation 'org.apache.poi:poi-ooxml:5+'
     // Use JUnit Jupiter API for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.1'
 

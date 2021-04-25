@@ -3,12 +3,17 @@
  */
 package poc.wordtopdf.poi;
 
+import poc.wordtopdf.poi.word.SampleReport;
+
+import java.io.IOException;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        SampleReport.generate();
         System.out.println(new App().getGreeting());
     }
 }
